@@ -17,6 +17,11 @@
   letter-spacing: 0.2px;
 }
 
+ul,
+ol {
+  list-style: none;
+}
+
 /* Products */
 .page-title {
   font-size: 58px;
@@ -33,4 +38,66 @@
   font-family: "Libre Baskerville", serif;
   font-size: 52px;
   line-height: 72.5px;
+}
+
+.products-wrapper {
+  padding-bottom: 42px;
+}
+
+.products {
+  margin-bottom: 64px;
+}
+
+.product {
+  max-width: 520px;
+  width: 100%;
+  margin-bottom: 64px;
+}
+
+.product:last-child {
+  margin-bottom: 0;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  background-color: gray;
+  margin-bottom: 21px;
+}
+
+.product-divider {
+  width: 100%;
+  margin-bottom: 9px;
+}
+
+.product-title {
+  color: #464542;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 33.6px;
+  margin-bottom: 3px;
+}
+
+.tags {
+  display: flex;
+  gap: 5px;
+}
+
+.tag {
+  font-family: "Libre Baskerville", serif;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: #6d6b67;
+}
+
+/* Products link */
+.products-link {
+  display: inline-block;
+  background-color: #1F1F1F;
+  color: #fff;
+  text-decoration: none;
+  padding: 9px 32px;
+  font-size: 17px;
+  line-height: 27px;
 }
