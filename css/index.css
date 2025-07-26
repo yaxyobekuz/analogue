@@ -94,10 +94,82 @@ ol {
 /* Products link */
 .products-link {
   display: inline-block;
-  background-color: #1F1F1F;
+  background-color: #1f1f1f;
   color: #fff;
   text-decoration: none;
   padding: 9px 32px;
   font-size: 17px;
   line-height: 27px;
+}
+
+/* Clients */
+.clients-section {
+  background-color: #f7f6f3;
+  padding: 52px 0px 132px 0px;
+}
+
+.section-title {
+  margin-bottom: 36px;
+  color: #1f1f1f;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 49.4px;
+}
+
+.section-title-inner {
+  font-family: "Libre Baskerville", serif;
+  font-size: 32px;
+}
+
+.clients {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  column-gap: 140px;
+  row-gap: 62px;
+  padding: 24px 0px;
+  border-top: 1px #6d6b67 solid;
+  border-bottom: 1px #6d6b67 solid;
+}
+
+.client-logo-1 {
+  width: 128px;
+  height: 38px;
+}
+
+.client-logo-2 {
+  width: 184px;
+  height: 31px;
+}
+
+.client-logo-3 {
+  width: 133px;
+  height: 34px;
+}
+
+.client-logo-4 {
+  width: 153px;
+  height: 33px;
+}
+
+.client-logo-5 {
+  width: 117px;
+  height: 28px;
+}
+
+.client-logo-6 {
+  width: 134px;
+  height: 42px;
+}
+
+.client-logo-7 {
+  width: 125px;
+  height: 37px;
+}
+
+.client-logo-8 {
+  width: 168px;
+  height: 28px;
 }
