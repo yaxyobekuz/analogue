@@ -1,129 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/index.css" />
 
     <!-- Title -->
     <title>Analogue</title>
-</head>
-<body class="body">
+  </head>
+  <body class="body">
     <main>
-        <!-- Title -->
-        <div class="container title-wrapper">
-            <h1 class="page-title">Recent <span class="page-title-inner">work</span></h1>
+      <!-- Title -->
+      <div class="container title-wrapper">
+        <h1 class="page-title">
+          Recent <span class="page-title-inner">work</span>
+        </h1>
+      </div>
+
+      <!-- Products -->
+      <div class="container products-wrapper">
+        <ul class="products">
+          <!-- 1 -->
+          <li class="product">
+            <img
+              width="520"
+              height="720"
+              src="./images/product-1.jpg"
+              alt="Product image"
+              class="product-image"
+            />
+            <hr class="product-divider" />
+            <h3 class="product-title">Rockfront Wine</h3>
+
+            <!-- Tags -->
+            <ul class="tags">
+              <li class="tag">Packaging /</li>
+              <li class="tag">Digital Content /</li>
+              <li class="tag">Website /</li>
+            </ul>
+          </li>
+
+          <!-- 2 -->
+          <li class="product">
+            <img
+              width="520"
+              height="673"
+              src="./images/product-2.jpg"
+              alt="Product image"
+              class="product-image"
+            />
+            <hr class="product-divider" />
+            <h3 class="product-title">Miami Gin</h3>
+
+            <!-- Tags -->
+            <ul class="tags">
+              <li class="tag">Website /</li>
+              <li class="tag">Illustration /</li>
+              <li class="tag">Art Direction /</li>
+            </ul>
+          </li>
+
+          <!-- 3 -->
+          <li class="product">
+            <img
+              width="520"
+              height="484"
+              src="./images/product-3.jpg"
+              alt="Product image"
+              class="product-image"
+            />
+            <hr class="product-divider" />
+            <h3 class="product-title">Batch Gummies</h3>
+
+            <!-- Tags -->
+            <ul class="tags">
+              <li class="tag">Illustration /</li>
+              <li class="tag">Visual Identity /</li>
+            </ul>
+          </li>
+        </ul>
+
+        <a href="./pages/products.html" class="products-link">See all work</a>
+      </div>
+
+      <!-- Clients -->
+      <section class="clients-section">
+        <div class="container">
+          <!-- Title -->
+          <h2 class="section-title">
+            Some of our
+            <span class="section-title-inner">recent clients</span>
+          </h2>
+
+          <!-- List -->
+          <ul class="clients">
+            <!-- 1 -->
+            <li class="client">
+              <img
+                width="126"
+                height="35"
+                src="./images/carded.svg"
+                alt="Carded logo"
+                class="client-logo-1"
+              />
+            </li>
+
+            <!-- 2 -->
+            <li class="client">
+              <img
+                width="184"
+                height="31"
+                src="./images/nowintech.svg"
+                alt="NowInTech logo"
+                class="client-logo-2"
+              />
+            </li>
+
+            <!-- 3 -->
+            <li class="client">
+              <img
+                width="133"
+                height="34"
+                src="./images/focusfox.svg"
+                alt="FocusFox logo"
+                class="client-logo-3"
+              />
+            </li>
+
+            <!-- 4 -->
+            <li class="client">
+              <img
+                width="153"
+                height="33"
+                src="./images/optimer.svg"
+                alt="Optimer logo"
+                class="client-logo-4"
+              />
+            </li>
+
+            <!-- 5 -->
+            <li class="client">
+              <img
+                width="117"
+                height="28"
+                src="./images/etro.svg"
+                alt="Etro logo"
+                class="client-logo-5"
+              />
+            </li>
+
+            <!-- 6 -->
+            <li class="client">
+              <img
+                width="134"
+                height="42"
+                src="./images/emerald.svg"
+                alt="NowInTech logo"
+                class="client-logo-6"
+              />
+            </li>
+
+            <!-- 7 -->
+            <li class="client">
+              <img
+                width="126"
+                height="35"
+                src="./images/carded.svg"
+                alt="Carded logo"
+                class="client-logo-7"
+              />
+            </li>
+
+            <!-- 8 -->
+            <li class="client">
+              <img
+                width="184"
+                height="31"
+                src="./images/nowintech.svg"
+                alt="NowInTech logo"
+                class="client-logo-8"
+              />
+            </li>
+          </ul>
         </div>
-
-        <!-- Products -->
-         <div class="container products-wrapper">
-             <ul class="products">
-                <!-- 1 -->
-                 <li class="product">
-                     <img width="520" height="720" src="./images/product-1.jpg" alt="Product image" class="product-image">
-                     <hr class="product-divider">
-                     <h3 class="product-title">Rockfront Wine</h3>
-
-                     <!-- Tags -->
-                      <ul class="tags">
-                        <li class="tag">Packaging /</li>
-                        <li class="tag">Digital Content /</li>
-                        <li class="tag">Website /</li>
-                      </ul>
-                 </li>
-
-                <!-- 2 -->
-                 <li class="product">
-                     <img width="520" height="673" src="./images/product-2.jpg" alt="Product image" class="product-image">
-                     <hr class="product-divider">
-                     <h3 class="product-title">Miami Gin</h3>
-
-                     <!-- Tags -->
-                      <ul class="tags">
-                        <li class="tag">Website /</li>
-                        <li class="tag">Illustration /</li>
-                        <li class="tag">Art Direction /</li>
-                      </ul>
-                 </li>
-
-                <!-- 3 -->
-                 <li class="product">
-                     <img width="520" height="484" src="./images/product-3.jpg" alt="Product image" class="product-image">
-                     <hr class="product-divider">
-                     <h3 class="product-title">Batch Gummies</h3>
-
-                     <!-- Tags -->
-                      <ul class="tags">
-                        <li class="tag">Illustration /</li>
-                        <li class="tag">Visual Identity /</li>
-                      </ul>
-                 </li>
-             </ul>
-
-             <a href="./pages/products.html" class="products-link">See all work</a>
-         </div>
-
-        <!-- Clients -->
-        <section class="clients-section">
-            <div class="container">
-                <!-- Title -->
-                <h2 class="section-title">
-                    Some of our 
-                    <span class="section-title-inner">recent clients</span>
-                </h2>
-
-                <!-- List -->
-                 <ul class="clients">
-                    <!-- 1 -->
-                    <li class="client">
-                        <img width="126" height="35" src="./images/carded.svg" alt="Carded logo" class="client-logo-1">
-                    </li>
-
-                    <!-- 2 -->
-                    <li class="client">
-                        <img width="184" height="31" src="./images/nowintech.svg" alt="NowInTech logo" class="client-logo-2">
-                    </li>
-
-                    <!-- 3 -->
-                    <li class="client">
-                        <img width="133" height="34" src="./images/focusfox.svg" alt="FocusFox logo" class="client-logo-3">
-                    </li>
-
-                    <!-- 4 -->
-                    <li class="client">
-                        <img width="153" height="33" src="./images/optimer.svg" alt="Optimer logo" class="client-logo-4">
-                    </li>
-
-                    <!-- 5 -->
-                    <li class="client">
-                        <img width="117" height="28" src="./images/etro.svg" alt="Etro logo" class="client-logo-5">
-                    </li>
-
-                    <!-- 6 -->
-                    <li class="client">
-                        <img width="134" height="42" src="./images/emerald.svg" alt="NowInTech logo" class="client-logo-6">
-                    </li>
-
-                    <!-- 7 -->
-                    <li class="client">
-                        <img width="126" height="35" src="./images/carded.svg" alt="Carded logo" class="client-logo-7">
-                    </li>
-
-                    <!-- 8 -->
-                    <li class="client">
-                        <img width="184" height="31" src="./images/nowintech.svg" alt="NowInTech logo" class="client-logo-8">
-                    </li>
-                 </ul>
-            </div>
-        </section>
-
+      </section>
     </main>
-</body>
+
+    <!-- CTA - Call To Action -->
+    <div class="cta">
+      <div class="container">
+        <!-- Divider -->
+        <hr class="cta-divider" />
+
+        <!-- Title -->
+        <h2 class="cta-title">
+          Ready to <span class="cta-title-inner">start?</span>
+        </h2>
+      </div>
+    </div>
+  </body>
 </html>
