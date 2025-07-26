@@ -173,3 +173,25 @@ ol {
   width: 168px;
   height: 28px;
 }
+
+/* CTA */
+.cta {
+  background: #e0f391;
+  padding: 48px 0px 40px;
+}
+
+.cta-divider {
+  color: #6d6b67;
+  margin-bottom: 24px;
+}
+
+.cta-title {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.cta-title-inner {
+  font-family: "Libre Baskerville", serif;
+  font-size: 28px;
+}
